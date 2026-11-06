@@ -19,6 +19,7 @@ Run:
 """
 
 import os
+import queue
 import shutil
 import subprocess
 import sys
@@ -203,6 +204,9 @@ class App:
         root.configure(bg="#1d2025")
         self.busy = False
         self.blink = False
+        # Worker threads hand results to the window through this queue;
+        # only the main thread touches Tk.
+        self.inbox = queue.Queue()
         self.state = {"exists": True, "cable": False, "sharing": False, "devices": [],
                       "eth_internet": False}
 
@@ -231,8 +235,22 @@ class App:
                   fg="white", activebackground="#444b55", activeforeground="white",
                   command=self.add_icon).pack(side="left", padx=4)
 
+        self.drain()
         self.poll()
         self.tick()
+
+    def drain(self):
+        try:
+            while True:
+                fn, args = self.inbox.get_nowait()
+                fn(*args)
+        except queue.Empty:
+            pass
+        self.root.after(100, self.drain)
+
+    def later(self, fn, *args):
+        """Run fn on the main (Tk) thread. Safe to call from any thread."""
+        self.inbox.put((fn, args))
 
     # --- drawing an RJ45 jack
     def draw_port(self):
@@ -316,7 +334,7 @@ class App:
                 "eth_internet": eth_is_pi_internet(),
             }
             st["devices"] = connected_devices() if st["sharing"] and st["cable"] else []
-            self.root.after(0, self._update_state, st)
+            self.later(self._update_state, st)
         threading.Thread(target=work, daemon=True).start()
         self.root.after(POLL_SECONDS * 1000, self.poll)
 
@@ -351,7 +369,7 @@ class App:
 
         def work():
             ok, out = fn()
-            self.root.after(0, self._done, ok, out, fail_text)
+            self.later(self._done, ok, out, fail_text)
         threading.Thread(target=work, daemon=True).start()
 
     def _done(self, ok, out, fail_text):
@@ -365,7 +383,7 @@ class App:
             st = {"exists": iface_exists(), "cable": cable_connected(),
                   "sharing": profile_exists(), "eth_internet": eth_is_pi_internet()}
             st["devices"] = connected_devices() if st["sharing"] and st["cable"] else []
-            self.root.after(0, self._update_state, st)
+            self.later(self._update_state, st)
         threading.Thread(target=work, daemon=True).start()
 
     def add_icon(self):
