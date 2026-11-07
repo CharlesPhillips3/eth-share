@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="832" height="457" viewBox="0 0 832 457">
+<rect width="832" height="457" fill="#1d2025"/>
+<rect x="46" y="36" width="300" height="210" fill="#c9ccd1" stroke="#8d9198" stroke-width="3"/>
+<rect x="56" y="46" width="280" height="190" fill="#b3b7bd" stroke="none" stroke-width="0"/>
+<polygon points="86,86 306,86 306,196 241,196 241,221 151,221 151,196 86,196" fill="#0d0f12" stroke="#2a2d33" stroke-width="2"/>
+<rect x="107" y="92" width="10" height="42" fill="#d8b04a" stroke="#a3812c" stroke-width="1"/>
+<rect x="131" y="92" width="10" height="42" fill="#d8b04a" stroke="#a3812c" stroke-width="1"/>
+<rect x="155" y="92" width="10" height="42" fill="#d8b04a" stroke="#a3812c" stroke-width="1"/>
+<rect x="179" y="92" width="10" height="42" fill="#d8b04a" stroke="#a3812c" stroke-width="1"/>
+<rect x="203" y="92" width="10" height="42" fill="#d8b04a" stroke="#a3812c" stroke-width="1"/>
+<rect x="227" y="92" width="10" height="42" fill="#d8b04a" stroke="#a3812c" stroke-width="1"/>
+<rect x="251" y="92" width="10" height="42" fill="#d8b04a" stroke="#a3812c" stroke-width="1"/>
+<rect x="275" y="92" width="10" height="42" fill="#d8b04a" stroke="#a3812c" stroke-width="1"/>
+<rect x="56" y="50" width="48" height="24" fill="#e23b3b" stroke="#222" stroke-width="1"/>
+<rect x="288" y="50" width="48" height="24" fill="#e23b3b" stroke="#222" stroke-width="1"/>
+<text x="80" y="28" fill="#b9c0ca" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" dominant-baseline="middle">LINK</text>
+<text x="312" y="28" fill="#b9c0ca" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" dominant-baseline="middle">SHARE</text>
+<text x="196" y="166" fill="#5c636e" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="bold" text-anchor="middle" dominant-baseline="middle">eth0</text>
+<text x="196" y="288" fill="#e23b3b" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Port is OFF</text>
+<text x="196" y="312" fill="#b9c0ca" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">Click START to share the Pi's internet</text>
+<text x="196" y="328" fill="#b9c0ca" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">through the Ethernet port.</text>
+<rect x="139" y="346" width="114" height="40" fill="#2e9d4f" stroke="none" stroke-width="0"/>
+<text x="196" y="366" fill="white" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="bold" text-anchor="middle" dominant-baseline="middle">START</text>
+<rect x="129" y="398" width="134" height="30" fill="#343a43" stroke="#cfd3d8" stroke-width="1"/>
+<text x="196" y="413" fill="white" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">Add desktop icon</text>
+<rect x="454" y="36" width="300" height="210" fill="#c9ccd1" stroke="#8d9198" stroke-width="3"/>
+<rect x="464" y="46" width="280" height="190" fill="#b3b7bd" stroke="none" stroke-width="0"/>
+<polygon points="494,86 714,86 714,196 649,196 649,221 559,221 559,196 494,196" fill="#0d0f12" stroke="#2a2d33" stroke-width="2"/>
+<rect x="515" y="92" width="10" height="42" fill="#d8b04a" stroke="#a3812c" stroke-width="1"/>
+<rect x="539" y="92" width="10" height="42" fill="#d8b04a" stroke="#a3812c" stroke-width="1"/>
+<rect x="563" y="92" width="10" height="42" fill="#d8b04a" stroke="#a3812c" stroke-width="1"/>
+<rect x="587" y="92" width="10" height="42" fill="#d8b04a" stroke="#a3812c" stroke-width="1"/>
+<rect x="611" y="92" width="10" height="42" fill="#d8b04a" stroke="#a3812c" stroke-width="1"/>
+<rect x="635" y="92" width="10" height="42" fill="#d8b04a" stroke="#a3812c" stroke-width="1"/>
+<rect x="659" y="92" width="10" height="42" fill="#d8b04a" stroke="#a3812c" stroke-width="1"/>
+<rect x="683" y="92" width="10" height="42" fill="#d8b04a" stroke="#a3812c" stroke-width="1"/>
+<rect x="464" y="50" width="48" height="24" fill="#2fd35a" stroke="#222" stroke-width="1"/>
+<rect x="696" y="50" width="48" height="24" fill="#2fd35a" stroke="#222" stroke-width="1"/>
+<text x="488" y="28" fill="#b9c0ca" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" dominant-baseline="middle">LINK</text>
+<text x="720" y="28" fill="#b9c0ca" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" dominant-baseline="middle">SHARE</text>
+<text x="604" y="166" fill="#5c636e" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="bold" text-anchor="middle" dominant-baseline="middle">eth0</text>
+<text x="604" y="288" fill="#2fd35a" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Connected</text>
+<text x="604" y="312" fill="#b9c0ca" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">Device IP: 192.168.2.23</text>
+<text x="604" y="328" fill="#b9c0ca" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">Gateway (Pi): 192.168.2.1</text>
+<rect x="547" y="346" width="114" height="40" fill="#c0392b" stroke="none" stroke-width="0"/>
+<text x="604" y="366" fill="white" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="bold" text-anchor="middle" dominant-baseline="middle">STOP</text>
+<rect x="537" y="398" width="134" height="30" fill="#343a43" stroke="#cfd3d8" stroke-width="1"/>
+<text x="604" y="413" fill="white" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">Add desktop icon</text>
+</svg>
