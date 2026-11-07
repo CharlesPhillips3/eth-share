@@ -2,7 +2,7 @@
 
 A tiny desktop app for the Raspberry Pi. Click **START** and the Pi's Ethernet port hands out IP addresses and shares the Pi's internet with whatever is plugged in. Click **STOP** to put the port back to normal.
 
-![Ethernet Share: off (left) and connected with a device at 192.168.2.23 (right)](screenshot.png)
+![Ethernet Share: off (left) and connected with a device at 192.168.2.23 (right)](screenshot.svg)
 
 The window shows a picture of the Ethernet port with two lights:
 
